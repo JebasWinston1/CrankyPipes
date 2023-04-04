@@ -7,37 +7,56 @@ $font-stack: Roboto, Arial;
 .main-header{
     display: grid;
     margin-top: 4px;
-    grid-template-columns: 300px 320px 200px 40px;
+    grid-template-columns: 200px 230px 200px 40px;
     grid-gap: 5px;
     height: 70px;
     width: 100%;
+    background: var(--skin);
+    // background: blue;
     justify-content: space-around;
     align-items: center;
     border: var(--common-border);
     .game-logo{
         height: var(--header-box-height);
-        border: var(--common-border);
+        // border: var(--common-border);
+        h1{
+            color:var(--gray);
+        }
     }
     .player-name{
-        border: var(--common-border);
+        // border: var(--common-border);
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: var(--header-box-height);
+        h3{
+            font-weight: bold;
+        }
 
     }
     .level-indicator{
-        border: var(--common-border);
+        // border: var(--common-border);
         height: var(--header-box-height);
         display: grid;
-        grid-template-columns: 60px 1fr 60px;
+        grid-template-columns: 40px 1fr 40px;
+        img{
+            width: 20px;
+        }
         .previous, .next{
+            color: var(--skin);
+            display: flex;
+            justify-content: center;
+            align-items: center;
             height: var(--header-box-height);
-            border: var(--common-border);
             box-sizing: border-box;
         }
 
     }
     .login-user{
-        border: var(--common-border);
+        // border: var(--common-border);
         height: var(--header-box-height);
-
+        img{
+            width: 38px;
+        }
     }
 }
