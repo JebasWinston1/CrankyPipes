@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.container {
+    background-color: var(--light-orange);
+    padding: 10px
+}
+
+.title {
+    padding: 5px;
+    color: var(--white);
+}
+
+.content {
+    padding: 5px;
+    margin-top: 10px;
+    color: var(--normal-text);
+    line-height: 25px;
+    // word-wrap: none;
+    word-break: normal;
+    // line-break: strict;
+
+    p {
+        margin: 5px;
+    }
+
+    li {
+        margin: 10px 0 10px 60px
+    }
+
+    code {
+        // border-bottom: 1px solid rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 5px 5px 0 0;
+        padding: 5px;
+        color: var(--normal-text);
+        font-family: 'Source Code Pro';
+        font-weight: 900;
+    }
+}

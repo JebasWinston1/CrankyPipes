@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
 // @at-root{
 //     font-family: Roboto, Arial;
 //     border: solid 1px var(--gray);
 // }
-$font-stack: Roboto, Arial;
-.main-header{
+// $font-stack: Roboto, Arial;
+
+.main-header {
     display: grid;
-    margin-top: 4px;
+    // margin-top: 4px;
     grid-template-columns: 300px 320px 200px 40px;
     grid-gap: 5px;
     height: 70px;
@@ -14,28 +14,34 @@ $font-stack: Roboto, Arial;
     justify-content: space-around;
     align-items: center;
     border: var(--common-border);
-    .game-logo{
+
+    .game-logo {
         height: var(--header-box-height);
         border: var(--common-border);
     }
-    .player-name{
+
+    .player-name {
         border: var(--common-border);
         height: var(--header-box-height);
 
     }
-    .level-indicator{
+
+    .level-indicator {
         border: var(--common-border);
         height: var(--header-box-height);
         display: grid;
         grid-template-columns: 60px 1fr 60px;
-        .previous, .next{
+
+        .previous,
+        .next {
             height: var(--header-box-height);
             border: var(--common-border);
             box-sizing: border-box;
         }
 
     }
-    .login-user{
+
+    .login-user {
         border: var(--common-border);
         height: var(--header-box-height);
 
